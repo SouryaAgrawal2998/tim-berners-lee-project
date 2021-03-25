@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding-top: 800px;
+    text-align: center;
 }
 .profile{
     width: 175px;
@@ -43,19 +44,17 @@ h2{
     font-weight:300;
     font-family: monospace;
 }
-#image{
-    border-radius: 100px ;
-};
+
 
 p { max-width: 450px;  
     font-size: 17px; 
     line-height: 1.2;
     margin: 25px auto;
+    font-family: 'Dela Gothic One', cursive;
 }
 #bio{
     padding: 50px;
     text-align:center;
-    font-size:42px;
 }
 .line{
     height:6px;
@@ -91,4 +90,13 @@ p { max-width: 450px;
 
 .links:hover{
     background-color: dodgerblue;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: fuchsia;
+}
+html{
+    scroll-behavior: smooth;
 }
